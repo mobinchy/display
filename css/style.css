@@ -1,0 +1,158 @@
+body{
+	font-size:18px;
+	font-family:all;
+	color:#333;
+	margin:0;
+	padding:0;
+}
+img{
+	max-width:100%;
+	display:block;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.container{
+	max-width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo-box{
+    display:table;
+}
+.logo-box img{
+    display:table-cell;
+    padding-right:6px;
+}
+.logo-box span{
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:grey;
+}
+.social{
+	width:50%;
+	float:left;
+}
+.logo{
+	width:50%;
+	float:left;
+}
+.social ul{
+	margin:0;
+	padding:0;
+	float:right;
+}
+.social ul li{
+	float:left;
+	list-style: none;
+	position: relative;
+}
+.social ul li a{
+	padding-left:5px;
+	display: block;
+}
+.bor-bot{
+    border-bottom: 1px solid rgba(218, 218, 218, 0.72);
+    padding: 16px 0;
+}
+.social ul li > img{
+	position: absolute;
+	top:16px;
+	left:20px;
+}
+nav{
+
+}
+nav ul{
+	padding:0;
+	margin:0;
+}
+nav ul li{
+    float:left;	
+    list-style: none;
+}
+nav ul li a{
+	display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 15px 20px 0;
+    font-size: 16px;
+    color:#737373;
+    transition:all 0.4s ease-in;
+    -webkit-transition:all 0.4s ease-in;
+    -moz-transition:all 0.4s ease-in;
+}
+nav ul li a:hover{
+	color:#0a0a0a;
+}
+
+.bg{
+    background-image: url(../images/s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 110px;
+}
+.mobile{
+    transform: translateY(15%);
+} 
+.mobile img{
+	margin:0 auto;
+}
+.main-content{
+	text-align:center;
+
+}
+.main-content p{
+    text-transform: capitalize;
+}
+.btn{
+	display:inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #2cc26b;
+    color: white;
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+}
+.btn:hover{
+   color: grey;
+}
+.ready-section{
+ background-color: #737373;
+}
+.left,.right{
+	float:left;
+	width:50%;
+}
+.left h1{
+	margin: 0;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: 18px;
+}
+.ready-section .btn{
+	float: right;
+	margin-top:18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
